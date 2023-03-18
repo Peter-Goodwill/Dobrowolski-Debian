@@ -1,0 +1,24 @@
+Przed przystąpieniem do instalacji programu Debian na VirtualBox, należy upewnić się, że posiadamy:
+
+- zainstalowany VirtualBox na naszym komputerze,
+- pobrany obraz systemu Debian w formacie .iso,
+- wystarczającą ilość pamięci RAM oraz miejsca na dysku twardym.
+
+1) Uruchom VirtualBox i kliknij przycisk "New" w celu utworzenia nowej maszyny wirtualnej.
+2) Wprowadź nazwę dla swojej maszyny wirtualnej oraz wybierz typ systemu operacyjnego na "Linux" i wersję na "Debian (64-bit)".
+3) Przejdź do następnej sekcji "Memory size" i przypisz odpowiednią ilość pamięci RAM, zależnie od swoich potrzeb i możliwości komputera.
+4) W sekcji "Hard disk" wybierz opcję "Create a virtual hard disk now" i kliknij przycisk "Create".
+5) Wybierz typ dysku twardego, który chcesz utworzyć. Zalecamy wybranie opcji "VDI" (VirtualBox Disk Image).
+6) Wybierz opcję "Dynamically allocated" i kliknij przycisk "Next".
+7) Przypisz odpowiednią ilość miejsca na dysku wirtualnym (w zależności od potrzeb i wymagań).
+8) Kliknij przycisk "Create" i poczekaj, aż zostanie utworzony dysk wirtualny.
+9) Wybierz swoją maszynę wirtualną z listy i kliknij przycisk "Settings".
+10) W sekcji "Storage" wybierz opcję "Empty" pod kontrolerem CD/DVD i kliknij przycisk "Choose Virtual Optical Disk File".
+11) Wybierz pobrany wcześniej obraz systemu Debian w formacie .iso i kliknij przycisk "OK".
+12) Uruchom maszynę wirtualną i poczekaj, aż pojawi się okno instalatora systemu Debian.
+13) Wybierz opcję "Install" i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, uzupełniając informacje o lokalizacji, języku, sieci, hasłach i inne c$je m@je.
+14) W sekcji "Partitioning method" wybierz opcję "Guided - use entire disk".
+15) Wybierz dysk wirtualny, na którym chcesz zainstalować system Debian.
+16) Po zakończeniu instalacji, uruchom system Debian i zaloguj się na swoje konto.
+17) Wybierz opcję "System Tools" i następnie "Terminal" w celu uruchomienia konsoli.
+18) Wykonaj polecenie "sudo apt-get update" w celu zaktualizowania repozytoriów oraz "sudo apt-get upgrade" w celu zaktualizowania systemu i zainstalowania najnowszych wersji pakietów.
