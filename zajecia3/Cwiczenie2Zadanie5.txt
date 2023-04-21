@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "Podaj nazwy plików (oddzielone spacją)." #w wierszu poleceń..
+read pliki
+
+#Poniższa konwersja wsadzi pojedynczy ciąg kilku słów i
+#rozczłonkuje je w tablicy, pod warunkiem że użytkownik użyje spacji.
+pliki=($pliki)
+
+#Poniżej dwie opcje o które nikt nie prosił.
+clear
+echo "Od początku do końca:"
+
+for (( i=0; i<${#pliki[@]}; i++ ))
+do
+	cat "${pliki[$i]}"
+done
+
+#Czekam 5 sekund.
+sleep 5
+
+clear
+echo "Od końca:"
+
+for (( i=${#pliki[@]}-1; i>=0; i-- ))
+do
+	cat "${pliki[$i]}"
+done
+
+#Ku pamięci: "#" oznacza długość pierwszego elementu tablicy, natomiast
+#"@" oznacza całą tablicę(array) "pliki"

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Podaj damskie imię."
+
+read imieDamskie
+noweImieDamskie="${imieDamskie%?}ę"
+
+clear #Co by się imiona nie pokrywały..
+
+#Dodałem -e, ponieważ zależało mi na \n pod koniec linii.
+
+echo -e "$imieDamskie ma kota, a kot ma $noweImieDamskie.\n"
+
+echo "Podaj męskie imię."
+
+read imieMeskie
+noweImieMeskie="${imieMeskie}a"
+
+clear
+
+echo "$imieMeskie ma kota, a kot ma $noweImieMeskie."
+
+#Mógłbym użyć Case Statement, ale jeszcze go nie znam ;)

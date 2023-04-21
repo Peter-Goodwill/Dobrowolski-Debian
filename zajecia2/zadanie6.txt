@@ -1,0 +1,10 @@
+#!/bin/bash
+
+A=Ala
+
+noweA="${A%?}ę"
+
+
+echo -e "$A ma kota, a kot ma $noweA.\n"
+
+#Chyba miałem użyć sop-a.. Ale tak też działa..

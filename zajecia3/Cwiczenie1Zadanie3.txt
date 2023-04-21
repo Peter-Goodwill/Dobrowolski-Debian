@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#$0 = bieżący skrypt, fyi.
+
+if [[ "${0##*.}" = "sh" ]]
+then
+	echo "Skrypt ma rozszerzenie \".sh\""
+else
+	echo "Skrypt nie miał rozszerzenia \".sh\", system podejmie akcję bez Twojej akceptacji."
+	mv "$0" "Cwiczenie1Zadanie3.sh"
+fi

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for plik in *.c
+do
+	cc "$plik" -o "${plik%.c}"
+done
+
+#otrzymuję szereg błędów, pracuję nad rozwiązaniem już dwie godziny,
+#powyższy kod wydaje mi się najrozsądniejszy.

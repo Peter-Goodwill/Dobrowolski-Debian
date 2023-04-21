@@ -1,0 +1,10 @@
+#!/bin/bash
+
+X=$(ls -l)
+#X='ls -l'
+
+echo $X
+
+#Komenda w apostrofie wypluwa dosłownie "ls -l";
+#Komenda w podpowłoce działa, ale wyniki są podane w sposób chaotyczny,
+#tj. nie w eleganckich rzędach.

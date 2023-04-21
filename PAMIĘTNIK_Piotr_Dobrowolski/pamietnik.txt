@@ -1,0 +1,10 @@
+2023-03-04
+Mój kochany pamiętniczku na dzisiejszych zajęciach nauczyłem się:
+- ...
+Captain's Log, Stardate 2023.03.04
+- Na dzisiejszych zajęciach nauczyłem się co to jest Virtual Box, oraz jak instalować Debiana;
+Captain's Log, Stardate 2023.03.18
+- Na dzisiejszych zajęciach nauczyłem się commitować na GitHubie, acz nie taki był chyba zamysł Pana Wykładowcy;
+Captain's Log, Stardate 2023.04.01
+- Na dzisiejszych zajęciach nauczyłem się, że jeśli miałbym korzystać z Chat-GPT, to lepiej najpierw spróbować zrobić zadanie samodzielnie, a już jako absolutne minimum nauczyć się tego co wysyłamy Panu Wykładowcy;
+Captain's Log, Stardate 2023.04.22

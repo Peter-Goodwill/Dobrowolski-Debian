@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#$@ przechowuje wszystkie argumenty skryptu.
+
+for argumenty in $@
+do
+	echo "Wpisane argumenty to:"
+
+#To powyżej napisane, żeby było wiadomo, że nie zostało wypisane z przypadku.
+#A "sleep" użyłem, bo mogłem.
+
+	sleep 0.5
+	echo $argumenty
+done

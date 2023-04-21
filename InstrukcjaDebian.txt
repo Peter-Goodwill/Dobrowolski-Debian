@@ -1,24 +1,60 @@
-Przed przystąpieniem do instalacji programu Debian na VirtualBox, należy upewnić się, że posiadamy:
 
-- zainstalowany VirtualBox na naszym komputerze,
-- pobrany obraz systemu Debian w formacie .iso,
-- wystarczającą ilość pamięci RAM oraz miejsca na dysku twardym.
 
-1) Uruchom VirtualBox i kliknij przycisk "New" w celu utworzenia nowej maszyny wirtualnej.
-2) Wprowadź nazwę dla swojej maszyny wirtualnej oraz wybierz typ systemu operacyjnego na "Linux" i wersję na "Debian (64-bit)".
-3) Przejdź do następnej sekcji "Memory size" i przypisz odpowiednią ilość pamięci RAM, zależnie od swoich potrzeb i możliwości komputera.
-4) W sekcji "Hard disk" wybierz opcję "Create a virtual hard disk now" i kliknij przycisk "Create".
-5) Wybierz typ dysku twardego, który chcesz utworzyć. Zalecamy wybranie opcji "VDI" (VirtualBox Disk Image).
-6) Wybierz opcję "Dynamically allocated" i kliknij przycisk "Next".
-7) Przypisz odpowiednią ilość miejsca na dysku wirtualnym (w zależności od potrzeb i wymagań).
-8) Kliknij przycisk "Create" i poczekaj, aż zostanie utworzony dysk wirtualny.
-9) Wybierz swoją maszynę wirtualną z listy i kliknij przycisk "Settings".
-10) W sekcji "Storage" wybierz opcję "Empty" pod kontrolerem CD/DVD i kliknij przycisk "Choose Virtual Optical Disk File".
-11) Wybierz pobrany wcześniej obraz systemu Debian w formacie .iso i kliknij przycisk "OK".
-12) Uruchom maszynę wirtualną i poczekaj, aż pojawi się okno instalatora systemu Debian.
-13) Wybierz opcję "Install" i postępuj zgodnie z instrukcjami wyświetlanymi na ekranie, uzupełniając informacje o lokalizacji, języku, sieci, hasłach i inne c$je m@je.
-14) W sekcji "Partitioning method" wybierz opcję "Guided - use entire disk".
-15) Wybierz dysk wirtualny, na którym chcesz zainstalować system Debian.
-16) Po zakończeniu instalacji, uruchom system Debian i zaloguj się na swoje konto.
-17) Wybierz opcję "System Tools" i następnie "Terminal" w celu uruchomienia konsoli.
-18) Wykonaj polecenie "sudo apt-get update" w celu zaktualizowania repozytoriów oraz "sudo apt-get upgrade" w celu zaktualizowania systemu i zainstalowania najnowszych wersji pakietów.
+Instrukcja instalacji programu Debian na VirtualBox:
+
+Krok 1: Pobierz plik ISO z obrazem systemu Debian z oficjalnej strony internetowej Debian: https://www.debian.org/distrib/.
+
+Krok 2: Uruchom VirtualBox, utwórz nową maszynę wirtualną, wybierając odpowiednie ustawienia (nazwa maszyny, typ systemu operacyjnego itp.), a następnie kliknij przycisk "Next".
+
+Krok 3: Wybierz ilość pamięci RAM dla maszyny wirtualnej, zalecana wartość to minimum 2GB, a następnie kliknij przycisk "Next".
+
+Krok 4: Wybierz "Create a virtual hard disk now" i kliknij przycisk "Create".
+
+Krok 5: Wybierz "VDI (VirtualBox Disk Image)" jako typ dysku twardego i kliknij przycisk "Next".
+
+Krok 6: Wybierz "Dynamically allocated" jako typ dysku twardego i kliknij przycisk "Next".
+
+Krok 7: Wybierz rozmiar dysku twardego dla maszyny wirtualnej i kliknij przycisk "Create".
+
+Krok 8: Wybierz maszynę wirtualną z listy i kliknij przycisk "Start".
+
+Krok 9: Wybierz plik ISO, który pobrałeś wcześniej, jako źródło uruchamiania dla maszyny wirtualnej i kliknij przycisk "Start".
+
+Krok 10: Na ekranie instalacji wybierz swoje preferencje językowe i klawiaturę, a następnie kliknij przycisk "Continue".
+
+Krok 11: Wybierz "Graphical Install" i kliknij przycisk "Continue".
+
+Krok 12: Wybierz swoją strefę czasową i kliknij przycisk "Continue".
+
+Krok 13: Wybierz "Guided - use entire disk" i kliknij przycisk "Continue".
+
+Krok 14: Wybierz dysk twardy, na którym ma być zainstalowany system Debian, i kliknij przycisk "Continue".
+
+Krok 15: Wybierz "All files in one partition" i kliknij przycisk "Continue".
+
+Krok 16: Wybierz "Finish partitioning and write changes to disk" i kliknij przycisk "Continue".
+
+Krok 17: Potwierdź, że chcesz zainstalować GRUB boot loader i kliknij przycisk "Continue".
+
+Krok 18: Wybierz swoją lokalizację geograficzną i kliknij przycisk "Continue".
+
+Krok 19: Wybierz preferencje do konfiguracji sieci i kliknij przycisk "Continue".
+
+Krok 20: Ustaw hasło dla użytkownika root i kliknij przycisk "Continue".
+
+Krok 21: Utwórz konto użytkownika i kliknij przycisk "Continue".
+
+Krok 22: Wybierz "Use a network mirror" i kliknij przycisk "Continue".
+
+Krok 23: Wybierz serwer lustrzany i kliknij przycisk "Continue".
+
+Jeśli jest to połączenie przez proxy, to trzeba podać odpowiednie dane. Kliknij przycisk "Continue".
+
+Krok 25: Zainstaluj oprogramowanie dodatkowe, jeśli jest to wymagane, i kliknij przycisk "Continue".
+
+Krok 26: Zaczekaj na zakończenie instalacji systemu Debian na maszynie wirtualnej.
+
+Krok 27: Po zakończeniu instalacji systemu, uruchom maszynę wirtualną ponownie i zaloguj się na konto użytkownika.
+
+Krok 28: W przypadku problemów z wyświetlaniem, zainstaluj sterowniki dodatkowe dla maszyny wirtualnej, klikając na "Devices" w menu VirtualBox i wybierając "Insert Guest Additions CD image...". Następnie postępuj zgodnie z instrukcjami.
+

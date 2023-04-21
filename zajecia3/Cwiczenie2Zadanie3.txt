@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#Użyty został wlidcard * do wyczytania wszystkich plików.
+
+for pliki in *
+do
+	echo "Patrzcie Państwo, oto plik:"
+	sleep 0.4
+	echo $pliki
+done
+
+#Polecił Pan sprawdzić IFS na wiki, ale powyższy kod też spełnia zadanie.

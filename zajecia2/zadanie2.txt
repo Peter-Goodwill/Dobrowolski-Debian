@@ -1,0 +1,5 @@
+1. Pod X podpięło się pojedyncze słowo.
+2. Polecenie bash wymazało powłokę.
+3. Echo $X nic nie dało.
+4. Wpisanie "Tekst dłuższy" jest jałowe bez cudzysłowu.
+5. Podwójny cudzysłów umożliwia stosowanie zmiennych na spółkę z cytowanymi słowami, a pojedynczy cudzysłów(CZY APOSTROF, JAK ZWAŁ, TAK ZWAŁ) zinterpretuje wszystko po "$" dosłownie.

@@ -1,0 +1,26 @@
+Podobno dobrą praktyką jest nie pisać zmiennych "IN ALL CAPS", ponieważ są "zarezerwowane" do stałych funkcji powłoki - w przeciwnym wypadku może wyjść sraczka poleceniowa (bynajmniej ja to tak interpretuję).
+
+Jak wpisuję te konkretne zmienne w zsh wychodzi mi to:
+piotrdobrowolski@Piotrs-MacBook-Pro-2 zajecia2 % $PATH
+zsh: no such file or directory: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+piotrdobrowolski@Piotrs-MacBook-Pro-2 zajecia2 % $RANDOM
+zsh: command not found: 3519
+piotrdobrowolski@Piotrs-MacBook-Pro-2 zajecia2 % $PWD
+zsh: permission denied: /Users/piotrdobrowolski/Desktop/zajecia2
+piotrdobrowolski@Piotrs-MacBook-Pro-2 zajecia2 % $PS1
+zsh: command not found: %n@%m %1~ %# 
+
+Natomiast przerzuciwszy się na basha:
+piotrdobrowolski@Piotrs-MacBook-Pro-2 zajecia2 % /bin/bash
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ $USER
+bash: piotrdobrowolski: command not found
+bash-3.2$ $HOSTNAME
+bash-3.2$ $OSTYPE
+bash: darwin21: command not found
+bash-3.2$ $PWD
+bash: /Users/piotrdobrowolski/Desktop/zajecia2: is a directory
+bash-3.2$ which PWD
+/bin/PWD

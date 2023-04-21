@@ -1,0 +1,11 @@
+#!/bin/bash
+
+plik=test.txt
+
+sed "s/Piotr/\033[31m&\033[0m/g" $plik
+
+#Wystarczyło powyższe polecenie, cat był zbędny.
+# Niestety kolory mi się #krzaczą w powyższym zestawieniu, można to 
+#substytuować takim rozwiązaniem:
+
+#cat $filename | grep --color=always "Piotr"

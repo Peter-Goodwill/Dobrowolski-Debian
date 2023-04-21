@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ $# -gt 1 ]
+then
+	$1 #ew. echo "$1"
+else
+	echo "Nie podano parametrów."
+fi
+
+#Rozumiem, że polecenie zawiera nieścisłość, ale 
+#pozwoliłem sobie dostosować się doń mimo to.

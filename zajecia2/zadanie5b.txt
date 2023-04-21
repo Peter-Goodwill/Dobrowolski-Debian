@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Napisz coś..."
+
+read cos
+
+echo "Pierwszy znak argumentu:"
+echo "$cos" | head -c1
+
+echo -e "\n"
+
+echo "Ostatni znak argumentu:"
+echo "$cos" | tail -c2
+
+#Przepraszam, ale spędziłem kupę czasu starając się domyślić
+#czemu nie działa mi kolor. Okazało się, że nie wspierany jest ANSI.
+#Poniżej zamieszczam kod wg zaleceń, a jeszcze niżej ten
+#który działa na moim terminalu:
+#echo -e "${cos//SOP/\e[32mSOP\e[0m/g}"
+
+echo "${cos//SOP/$(tput setaf 2)SOP$(tput sgr0)}"

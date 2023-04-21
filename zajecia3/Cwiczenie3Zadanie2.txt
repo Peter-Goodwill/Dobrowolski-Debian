@@ -1,0 +1,20 @@
+#!/bin/bash
+
+sracci_fibonacci() {
+
+n=$1
+if((n <= 1))
+then
+	return $n
+fi
+
+a=0 b=1 i=2
+while ((i < n))
+do
+	c=$((a + b))
+	a=$b
+	b=$c
+	((i++))
+done
+return $((a + b))
+}

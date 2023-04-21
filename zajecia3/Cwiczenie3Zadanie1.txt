@@ -1,0 +1,50 @@
+#!/bin/bash
+
+kolorowy_tekst() {
+	
+	echo "Wpisz tekst i naciśnij Enter."
+	read teks
+	
+	echo "Podaj żądany kolor ANSI i naciśnij Enter"
+	read kolor
+
+if [ $kolor = "czarny" ]
+then
+	wybKolor=0
+
+elif [ $kolor = "czerwony" ]
+then 
+	wybKolor=1
+
+elif [ $kolor = "zielony" ]
+then 
+	wybKolor=2
+
+elif [ $kolor = "żółty" || "zolty" ]
+then 
+	wybKolor=3
+
+elif [ $kolor = "niebieski" ]
+then 
+	wybKolor=4
+
+elif [ $kolor = "fioletowy" ]
+then 
+	wybKolor=5
+
+elif [ $kolor = "cyjanowy" || "niebiesko-zielony" ]
+then 
+	wybKolor=6
+
+elif [ $kolor = "biały" ]
+then 
+	wybKolor=7
+
+else
+	wybKolor=9
+
+
+fi
+
+	echo -e "\033[3${wybKolor}m${tekst}\033[0m"
+}

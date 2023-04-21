@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cyfra=10
+
+while [ $cyfra -gt 0 ]
+do
+	echo $cyfra
+	cyfra=$(( $cyfra -2 ))
+#jakby komuś było za szybko, można wyświetlać co 1 sekundę:
+	sleep 1
+done

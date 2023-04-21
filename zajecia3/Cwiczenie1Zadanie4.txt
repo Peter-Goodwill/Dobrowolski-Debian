@@ -1,0 +1,13 @@
+#!/bin/bash
+
+pliki=$(ls | wc -w)
+
+if [ $pliki -gt 5 ]
+then
+	echo "W bieżącym katalogu jest więcej niż 5 plików."
+	echo -e "Nie będę Cię trzymał w niepewności, jest tu "$pliki" plików."
+
+else
+	echo "W bieżącym katalogu jest MNIEJ niż 5 plików."
+	echo "A konkretnie "$pliki"."
+fi

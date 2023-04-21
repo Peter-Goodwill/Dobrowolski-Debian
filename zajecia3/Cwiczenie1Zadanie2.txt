@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Jeśli istnieje plik .ctf, odpal.
+if [ -f ~/config.ctf ]
+then
+	./config.ctf
+
+#Jeśli istnieje plik o nazwie podanej w argumencie "1" odpal.
+elif [ -f $1 ]
+then
+	./$1
+else
+	echo "Wystąpił błąd!"
+fi
