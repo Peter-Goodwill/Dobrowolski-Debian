@@ -1,6 +1,6 @@
 
 
-Instrukcja instalacji programu Debian na VirtualBox:
+Instrukcja instalacji Systemu Operacyjnego Linux w dystrybucji Debian na VirtualBox:
 
 Krok 1: Pobierz plik ISO z obrazem systemu Debian z oficjalnej strony internetowej Debian: https://www.debian.org/distrib/.
 

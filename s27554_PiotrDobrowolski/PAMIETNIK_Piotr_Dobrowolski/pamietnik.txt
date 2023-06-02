@@ -12,3 +12,7 @@ Captain's Log, Stardate 2023.04.22
 Captain's Log, Stardate 2023.05.06
 - Nauczyłem się sporo, spotkanie było wykorzystane do ostatniej minuty; Omówiliśmy PID i PPID, kilkoro moich kolegów oraz koleżanka kodowali na żywo - panowała atmosfera dzielenia się wiedzą, było fajnie;
 Captain's Log, Stardate 2023.05.20
+- Tego dnia również spotkanie było typowo wykładowe, w pozytywnym tego słowa znaczeniu. Nauczyłem się dużo. Czy wszystko zrozumiałem natomiast, to już inna para kaloszy.
+
+
+
